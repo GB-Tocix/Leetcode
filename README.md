@@ -8,7 +8,7 @@
 
 **标签**：树，设计，广度优先搜索
 
-**代码**：[CBTInserter.java](src\CBTInserter.java)
+**代码**：[CBTInserter.java](src/CBTInserter.java)
 
 
 
@@ -18,5 +18,5 @@
 
 **标签**：数组，字符串，前缀和
 
-**代码**：[PlateBetweenCandles.java](src\PlateBetweenCandles.java)
+**代码**：[PlateBetweenCandles.java](src/PlateBetweenCandles.java)
 
