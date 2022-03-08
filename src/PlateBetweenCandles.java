@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class PlateBetweenCandles {
     public int[] platesBetweenCandles(String s, int[][] queries) {
         int len = s.length();
