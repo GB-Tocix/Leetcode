@@ -10,11 +10,11 @@
 
 **代码**：[BestRotation.java](src/BestRotation.java)
 
-**我使用的方法**：滑动窗口+优先队列 $O(nlogn)$ 
+**我使用的方法**：滑动窗口+优先队列 ![](https://latex.codecogs.com/svg.latex?\O(nlogn))
 
-**官方题解**：差分数组 $O(n)$
+**官方题解**：差分数组 ![](https://latex.codecogs.com/svg.latex?\O(n))
 
-
+<br>
 
 ##### 03-08】[919. 完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter/)
 
@@ -24,7 +24,7 @@
 
 **代码**：[CBTInserter.java](src/CBTInserter.java)
 
-
+<br>
 
 ##### 03-08】[2055. 蜡烛之间的盘子](https://leetcode-cn.com/problems/plates-between-candles/)
 
