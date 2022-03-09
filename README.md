@@ -12,7 +12,7 @@
 
 **我使用的方法**：滑动窗口+优先队列 ![](https://latex.codecogs.com/svg.latex?\O(nlogn))
 
-**官方题解**：差分数组 ![](https://latex.codecogs.com/svg.latex?\O(n))
+**官方题解**：差分数组 ![](https://latex.codecogs.com/svg.latex?\O(n)) **(*)**
 
 <br>
 
