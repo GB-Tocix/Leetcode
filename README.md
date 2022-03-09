@@ -6,11 +6,15 @@
 
 **难度**：困难
 
-**标签**：差分数组
+**标签**：差分数组，滑动窗口，优先队列，数组
 
 **代码**：[BestRotation.java](src/BestRotation.java)
 
-**我使用的方法**：滑动窗口+优先队列 ![](https://latex.codecogs.com/svg.latex?\O(nlogn))
+**我使用的方法**：
+
+1. 滑动窗口+优先队列 ![](https://latex.codecogs.com/svg.latex?\O(nlogn))
+
+2. 滑动窗口+数组![](https://latex.codecogs.com/svg.latex?\O(n))
 
 **官方题解**：差分数组 ![](https://latex.codecogs.com/svg.latex?\O(n)) **(*)**
 
