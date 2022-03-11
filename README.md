@@ -1,6 +1,15 @@
 # 刷题记录
 
 
+### 03-11】[2049. 统计最高分的节点数目](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/)
+
+**难度**：中等
+
+**标签**：树，深度优先搜索，二叉树
+
+**代码**：[CountHighestScoreNodes.java](src/CountHighestScoreNodes.java)
+
+<br>
 
 ### 03-09】[798. 得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/)
 
