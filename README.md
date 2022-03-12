@@ -1,5 +1,22 @@
 # 刷题记录
 
+### 03-12】[剑指 Offer II 114. 外星文字典](https://leetcode-cn.com/problems/Jf1JuT/)
+
+**难度**：困难
+
+**标签**：拓扑排序，图
+
+**代码**：[AlienOrder.java](src/AlienOrder.java)
+
+**坑与启发**：
+
+1. 输入只有一个元素，无法正确展开判断
+
+2. 注意判断的中止，与终止之后判断方法的切换，做到不重不漏
+
+3. 给出的输入既有可能引起第一条规则的违背，也有可能引起第二条，因此需要判断
+
+<br>
 
 ### 03-11】[2049. 统计最高分的节点数目](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/)
 
