@@ -1,5 +1,13 @@
 # 刷题记录
 
+### 03-13】[393. UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/)
+
+**难度**：中等
+
+**标签**：位运算
+
+**代码**：[ValidUtf8.java](src/ValidUtf8.java)
+
 <br>
 
 ### 03-12】[剑指 Offer II 114. 外星文字典](https://leetcode-cn.com/problems/Jf1JuT/)
