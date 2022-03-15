@@ -1,5 +1,21 @@
 # 刷题记录
 
+### 03-15】[2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)
+
+**难度**：中等
+
+**标签**：位运算，深度优先搜索，剪枝
+
+**代码**：[CountMaxOrSubsets.java](src/CountMaxOrSubsets.java)
+
+**笔记**：
+
+1. 位运算结果直接作为 target，用 `==` 判断边界即可
+
+2. 已经满足 target 要求即可剪枝
+
+<br>
+
 ### 03-13】[393. UTF-8 编码验证](https://leetcode-cn.com/problems/utf-8-validation/)
 
 **难度**：中等
