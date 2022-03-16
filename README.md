@@ -1,5 +1,25 @@
 # 刷题记录
 
+### 03-16】[432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
+
+**难度**：困难
+
+**标签**：集合，哈希表，链表，双向链表，设计
+
+**代码**：[AllOne.java](src/AllOne.java)
+
+**官方题解代码**：[AllOneSTD.java](src/AllOneSTD.java)
+
+**笔记**：
+
+1. 双向链表与哈希表的结合
+
+2. `Node` 类可以规范抽象出 `Insert`、`Remove` 等方法，提高代码简洁性、复用率与可读性（参考官方题解代码）
+
+3. 使用**哨兵节点**替代`null`，可以非常简洁地实现移除等操作
+
+<br>
+
 ### 03-15】[2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)
 
 **难度**：中等
