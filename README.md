@@ -18,6 +18,8 @@
 
 3. 使用**哨兵节点**替代`null`，可以非常简洁地实现移除等操作
 
+4. **内部类**与**嵌套类**
+
 <br>
 
 ### 03-15】[2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)
