@@ -1,5 +1,9 @@
 # 刷题记录
 
+[**编程笔记**](/notes/index)
+
+
+
 ### 03-16】[432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
 
 **难度**：困难
