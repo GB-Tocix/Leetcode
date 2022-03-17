@@ -4,6 +4,34 @@
 
 <br>
 
+### 03-17】[720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)
+
+**难度**：简单
+
+**标签**：前缀树，字典树，哈希表，排序
+
+**代码**：[LongestWord.java](src/LongestWord.java)
+
+**笔记**：
+
+-  利用前缀树的特性来进行高效求解
+
+<br>
+
+### 03-17】[208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+
+**难度**：中等
+
+**标签**：前缀树，字典树
+
+**代码**：[Trie.java](src/Trie.java)
+
+**笔记**：
+
+-  一个 Trie 对象就相当于一个 Node 节点
+
+<br>
+
 ### 03-16】[432. 全 O(1) 的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
 
 **难度**：困难
