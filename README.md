@@ -4,6 +4,20 @@
 
 <br>
 
+### 03-17】[2039. 网络空闲的时刻](https://leetcode-cn.com/problems/the-time-when-the-network-becomes-idle/)
+
+**难度**：中等
+
+**标签**：广度优先搜索，树，图
+
+**代码**：[NetworkBecomesIdle.java](src/NetworkBecomesIdle.java)
+
+**笔记**：
+
+-  练习了应用哨兵节点
+
+<br>
+
 ### 03-17】[720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)
 
 **难度**：简单
