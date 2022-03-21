@@ -4,7 +4,23 @@
 
 <br>
 
-### 03-17】[2039. 网络空闲的时刻](https://leetcode-cn.com/problems/the-time-when-the-network-becomes-idle/)
+### 03-21】[653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
+
+**难度**：简单
+
+**标签**：二叉搜索树，遍历，双指针
+
+**代码**：[FindTarget.java](src/FindTarget.java)
+
+**笔记**：
+
+- 复习二叉搜索树，中序遍历可以得到递增序列
+
+- 复习双指针判断两数之和是否满足目标
+
+<br>
+
+### 03-20】[2039. 网络空闲的时刻](https://leetcode-cn.com/problems/the-time-when-the-network-becomes-idle/)
 
 **难度**：中等
 
