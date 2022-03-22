@@ -4,6 +4,16 @@
 
 <br>
 
+### 03-22】[2038. 如果相邻两个颜色均相同则删除当前颜色](https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)
+
+**难度**：中等
+
+**标签**：贪心
+
+**代码**：[WinnerOfGame.java](src/WinnerOfGame.java)
+
+<br>
+
 ### 03-21】[653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
 
 **难度**：简单
