@@ -3,12 +3,17 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        WinnerOfGame test = new WinnerOfGame();
+        MaxStudents test = new MaxStudents();
         int[] input_array_1D = {3,1};
         int[][] input_array_2D = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
+        char[][] char_array_2D = new char[][]{
+                {'#','.','.','#','.','#'},
+                {'.','#','.','#','#','.'},
+                {'#','.','.','#','.','#'}
+        };
         String string = "BBBAAAABB";
         String[] string_array_1D = new String[]{"yo","ew","fc","zrc","yodn","fcm","qm","qmo","fcmz","z","ewq","yod","ewqz","y"};
-        System.out.println(test.winnerOfGame(string));
+        System.out.println(test.maxStudents(char_array_2D));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
