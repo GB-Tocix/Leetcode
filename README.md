@@ -4,6 +4,20 @@
 
 <br>
 
+### 03-25】[172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
+
+**难度**：中等
+
+**标签**：数学
+
+**代码**：[TrailingZeroes.java](src/TrailingZeroes.java)
+
+**笔记**：
+
+- 只要统计最后结果中，因子里2和5的数量，取较小值即可
+
+<br>
+
 ### 03-23】[1349. 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam/)
 
 **难度**：困难
