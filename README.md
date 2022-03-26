@@ -4,6 +4,27 @@
 
 <br>
 
+### 03-26】[991. 坏了的计算器](https://leetcode-cn.com/problems/broken-calculator/)
+
+**难度**：中等
+
+**标签**：数学，脑筋急转弯，贪心
+
+**代码**：[brokenCalc.java](src/brokenCalc.java)
+
+**笔记**：
+
+- 反向思维：
+  - 对 x 乘 2 等价于对 y 除以 2
+  - 对 x 减 1 等价于对 y 加上 1
+- 贪心策略：
+  - 总是对 y 优先进行除以 2 的操作
+    - 如果 y 是偶数，如果不马上除以 2，先加若干个 1 再除以 2 的话，可以通过先除以 2 再加 1 的途径通过更少的步数实现
+    - 如果 y 是奇数，尤其仅有加 1 的选择，加 1 后变成偶数回到第一种情况
+  - 当 y 小于 x 时总是加 1，直接计算差值即可
+
+<br>
+
 ### 03-25】[172. 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
 
 **难度**：中等
