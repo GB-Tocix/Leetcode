@@ -20,6 +20,7 @@
   - last(i) = min(n, last(i - 1) * 10 + 9)
   - last(i) - first(i) 可以计算出一层点的数量
 - 注意对关键变量采用 long 数据类型，防止比较或计算错误
+- 时间复杂度 ![](https://latex.codecogs.com/svg.latex?O(log^2n))
 
 <br>
 
