@@ -4,13 +4,32 @@
 
 <br>
 
+### 03-28】[440. 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)
+
+**难度**：困难
+
+**标签**：字典树
+
+**代码**：[FindKthNumber.java](src/FindKthNumber.java)
+
+**笔记**：
+
+- 由于数据规模较大，如果直接真实遍历会超时
+- 利用字典树性质
+  - first(i) = first(i - 1) * 10
+  - last(i) = min(n, last(i - 1) * 10 + 9)
+  - last(i) - first(i) 可以计算出一层点的数量
+- 注意对关键变量采用 long 数据类型，防止比较或计算错误
+
+<br>
+
 ### 03-26】[991. 坏了的计算器](https://leetcode-cn.com/problems/broken-calculator/)
 
 **难度**：中等
 
 **标签**：数学，脑筋急转弯，贪心
 
-**代码**：[brokenCalc.java](src/brokenCalc.java)
+**代码**：[BrokenCalc.java](src/BrokenCalc.java)
 
 **笔记**：
 
