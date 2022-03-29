@@ -4,6 +4,20 @@
 
 <br>
 
+### 03-29】[2024. 考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)
+
+**难度**：中等
+
+**标签**：滑动窗口
+
+**代码**：[MaxConsecutiveAnswers.java](src/MaxConsecutiveAnswers.java)
+
+**笔记**：
+
+- 没有必要预统计连续字符的个数，可以直接在原字符串上做遍历
+
+<br>
+
 ### 03-28】[440. 字典序的第K小数字](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)
 
 **难度**：困难
