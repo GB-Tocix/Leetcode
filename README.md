@@ -4,6 +4,23 @@
 
 <br>
 
+### 03-30】[1606. 找到处理最多请求的服务器](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/)
+
+**难度**：困难
+
+**标签**：优先队列
+
+**代码**：[BusiestServers.java](src/BusiestServers.java)
+
+**笔记**：
+
+- 使用双优先队列
+  - 一个记录服务器恢复时间
+  - 一个按顺序记录可用服务
+  - 按时更新两个队列
+
+<br>
+
 ### 03-29】[2024. 考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)
 
 **难度**：中等
