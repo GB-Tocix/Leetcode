@@ -4,6 +4,29 @@
 
 <br>
 
+### 04-02】[420. 强密码检验器](https://leetcode-cn.com/problems/strong-password-checker/)
+
+**难度**：困难
+
+**标签**：贪心，分类讨论，字符串
+
+**代码**：[StrongPasswordChecker.java](src/StrongPasswordChecker.java)
+
+**笔记**：
+
+- 可以体现 **分类讨论** 的重要性
+- 设 n 为输入字符串的长度，分三种情况
+  - 小于 6
+  - 在 6 和 20 的闭区间内
+  - 大于 20
+- 于是分别对应以下三种处理：
+  1. `return Math.max(6 - n, 3 - types)`
+  2. `Math.max(times_change, 3 - types)`
+  3. `n - 20 + Math.max(times_change, 3 - types)`
+- 包含了很多贪心思想，不同分类下在“增”、“删”、“替”中寻找占优操作
+
+<br>
+
 ### 04-01】[954. 二倍数对数组](https://leetcode-cn.com/problems/array-of-doubled-pairs/)
 
 **难度**：中等
