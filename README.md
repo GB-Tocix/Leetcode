@@ -4,6 +4,16 @@
 
 <br>
 
+### 04-01】[954. 二倍数对数组](https://leetcode-cn.com/problems/array-of-doubled-pairs/)
+
+**难度**：中等
+
+**标签**：贪心，哈希表，排序，数组
+
+**代码**：[CanReorderDoubled.java](src/CanReorderDoubled.java)
+
+<br>
+
 ### 03-30】[1606. 找到处理最多请求的服务器](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/)
 
 **难度**：困难
