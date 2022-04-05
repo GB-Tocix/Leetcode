@@ -4,6 +4,37 @@
 
 <br>
 
+### 04-04】[762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)
+
+**难度**：简单
+
+**标签**：数学，位运算
+
+**代码**：[CountPrimeSetBits.java](src/CountPrimeSetBits.java)
+
+**笔记**：
+- 复习几项知识：
+  - `x &= (x - 1)` 可以直接消除最后一个 x 二进制中的最后一个 1
+  - 使用上一条可以高效统计出一个数的计算置位数
+  - `((1 << Integer.bitCount(x)) & 665772) != 0` 可以在可能的质数情况有限时，快速判断是否满足条件，时间复杂度 O(1)
+
+<br>
+
+### 04-03】[307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/)
+
+**难度**：中等
+
+**标签**：树状数组，线段树，数组
+
+**代码**：[NumArray.java](src/NumArray.java)
+
+**笔记**：
+- 复习**树状数组**：
+  - `lowbit(x) = x & (-x)` 可以找到 x 二进制中最后一个 1 的位置
+  - 更新和查询的时间复杂度都是 ![](https://latex.codecogs.com/svg.latex?O(logn))
+
+<br>
+
 ### 04-02】[420. 强密码检验器](https://leetcode-cn.com/problems/strong-password-checker/)
 
 **难度**：困难
