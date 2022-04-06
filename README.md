@@ -4,7 +4,29 @@
 
 <br>
 
-### 04-04】[762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)
+### 04-06】[310. 最小高度树](https://leetcode-cn.com/problems/minimum-height-trees/)
+
+**难度**：中等
+
+**标签**：深度优先搜索，广度优先搜索，拓扑排序
+
+**代码**：[FindMinHeightTrees.java](src/FindMinHeightTrees.java)
+
+**笔记**：
+- 【搜索做法】知识点：如何找到图中最远两个节点与它们之间的路径
+  - 从任意节点 p 出发，使用 dfs 或者 bfs 出发找到一条最长的路径终点 x
+  - 从节点 x 出发，找到最长路径的终点 y
+  - x 到 y 之间的路径即为图中的最长路径
+  - 在本题中 xy 路径的中间节点即为根节点
+- 【拓扑排序做法】
+  - 将所有度为 1 的节点放入队列
+  - 取出节点，并将相邻结点的度减少，并将新的度数为 1 的节点放入队列
+  - 知道所剩的节点数目小于等于 2
+  - 剩余的节点即为所求的根节点
+
+<br>
+
+### 04-05】[762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)
 
 **难度**：简单
 
@@ -20,7 +42,7 @@
 
 <br>
 
-### 04-03】[307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/)
+### 04-04】[307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/)
 
 **难度**：中等
 
