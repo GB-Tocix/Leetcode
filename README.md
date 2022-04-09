@@ -4,6 +4,34 @@
 
 <br>
 
+### 04-09】[780. 到达终点](https://leetcode-cn.com/problems/reaching-points/)
+
+**难度**：困难
+
+**标签**：数学，脑筋急转弯
+
+**代码**：[ReachingPoints.java](src/ReachingPoints.java)
+
+**笔记**：
+- 尝试使用逆向思维
+  - 对于`(tx,ty)`数对，其可能会源自
+    - `(tx-ty,ty)`
+    - `(tx,ty-tx)`
+  - 但由于数的严格大于零性质，这两种中必只有一种符合可能
+  - 所以求解过程并无需使用搜索
+
+<br>
+
+### 04-08】[96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
+
+**难度**：中等
+
+**标签**：树，二叉搜索树，数学，动态规划
+
+**代码**：[NumTrees.java](src/NumTrees.java)
+
+<br>
+
 ### 04-08】[429. N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
 
 **难度**：中等

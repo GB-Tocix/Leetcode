@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        StrongPasswordChecker test = new StrongPasswordChecker();
+        ReachingPoints test = new ReachingPoints();
         int[] input_array_1D = {4,-2,2,-4};
         int[][] input_array_2D = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
         char[][] char_array_2D = new char[][]{
@@ -13,7 +13,7 @@ public class Main {
         };
         String string = "aaaaaaaaaaaaaaaaaaaaaaaa";
         String[] string_array_1D = new String[]{"yo","ew","fc","zrc","yodn","fcm","qm","qmo","fcmz","z","ewq","yod","ewqz","y"};
-        System.out.println(test.strongPasswordChecker(string));
+        System.out.println(test.reachingPoints(2, 3, 4, 7));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
