@@ -4,6 +4,19 @@
 
 <br>
 
+### 04-11】[357. 统计各位数字都不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/)
+
+**难度**：中等
+
+**标签**：数学
+
+**代码**：[CountNumbersWithUniqueDigits.java](src/CountNumbersWithUniqueDigits.java)
+
+**笔记**：
+- 考虑 0 的个数分类讨论，对应情况可以通过排列获得
+
+<br>
+
 ### 04-09】[780. 到达终点](https://leetcode-cn.com/problems/reaching-points/)
 
 **难度**：困难
