@@ -4,6 +4,22 @@
 
 <br>
 
+### 05-23】[675. 为高尔夫比赛砍树](https://leetcode.cn/problems/cut-off-trees-for-golf-event/)
+
+**难度**：困难
+
+**标签**：广度优先搜索
+
+**代码**：[CutOffTree.java](src/CutOffTree.java)
+
+**笔记**：
+- 二维数组使用`Arrays.fill()`
+  ```{java}
+  for (boolean[] sub: visited)
+     Arrays.fill(sub, false);
+
+<br>
+
 ### 05-22】[464. 我能赢吗](https://leetcode.cn/problems/can-i-win/)
 
 **难度**：中等
