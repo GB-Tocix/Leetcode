@@ -5,7 +5,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        CutOffTree test = new CutOffTree();
+        FindSubstringInWraproundString test = new FindSubstringInWraproundString();
         int[] input_array_1D = {4,-2,2,-4};
         int[][] input_array_2D = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
         char[][] char_array_2D = new char[][]{
@@ -13,13 +13,13 @@ public class Main {
                 {'.','#','.','#','#','.'},
                 {'#','.','.','#','.','#'}
         };
-        String string = "aaaaaaaaaaaaaaaaaaaaaaaa";
+        String string = "cdefabcd";
         String[] string_array_1D = new String[]{"yo","ew","fc","zrc","yodn","fcm","qm","qmo","fcmz","z","ewq","yod","ewqz","y"};
         List<List<Integer>> list_array_2D = new ArrayList<>();
         list_array_2D.add(Arrays.asList(8, 3, 2));
         list_array_2D.add(Arrays.asList(0, 0, 4));
         list_array_2D.add(Arrays.asList(7, 6, 5));
-        System.out.println(test.cutOffTree(list_array_2D));
+        System.out.println(test.findSubstringInWraproundString(string));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");

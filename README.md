@@ -4,6 +4,44 @@
 
 <br>
 
+### 05-26】[699. 掉落的方块](https://leetcode.cn/problems/falling-squares/)
+
+**难度**：困难
+
+**标签**：有序集合，线段树，数组
+
+**代码**：[FallingSquares.java](src/FallingSquares.java)
+
+**笔记**：
+- 暴力方法：
+  - 也可以通过
+  - 判断两个方块是否相交：
+    - 直观的想法是，找出不相交的条件：`left1 > right2 or right1 < left2`
+    - 取反得到：`left1 <= right2 and right1 >= left2`
+  - 时间复杂度：n 方
+- 有序集合：
+  - 可以将时间复杂度降低到 nlogn
+  - 记录高度发生变化的点集，使用二分查找进行搜索
+- 线段树：需要将点进行映射
+
+<br>
+
+### 05-25】[467. 环绕字符串中唯一的子字符串](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/)
+
+**难度**：中等
+
+**标签**：动态规划
+
+**代码**：[FindSubstringInWraproundString.java](src/FindSubstringInWraproundString.java)
+
+**笔记**：
+- 最初的想法是：双指针+类似单调队列的做法
+  - 尝试加记录、拆解
+- 最终，维护一个 26 大小的数组，其中的每个元素分别记录每个对应的字母，曾经参与构成的以自己结尾的最长的子串的长度
+  - 答案就是这个数组内部元素的和
+
+<br>
+
 ### 05-23】[675. 为高尔夫比赛砍树](https://leetcode.cn/problems/cut-off-trees-for-golf-event/)
 
 **难度**：困难
