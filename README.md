@@ -4,6 +4,22 @@
 
 <br>
 
+### 05-29】[468. 验证IP地址](https://leetcode.cn/problems/validate-ip-address/)
+
+**难度**：中等
+
+**标签**：字符串
+
+**代码**：[ValidIPAddress.java](src/ValidIPAddress.java)
+
+**笔记**：
+
+- 注意检查“split”的结果，会不会因为最有一个空缺而自动抹除
+- 注意有可能一开始，输入的字符串就太长而没有必要再进行判断
+- 注意一方面，不是0的数，开头不会是0；另一方面，是0的话，开头是0但后面还有0也是不对的
+
+<br>
+
 ### 05-26】[699. 掉落的方块](https://leetcode.cn/problems/falling-squares/)
 
 **难度**：困难
