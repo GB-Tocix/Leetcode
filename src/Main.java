@@ -5,8 +5,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        ValidIPAddress test = new ValidIPAddress();
-        int[] input_array_1D = {4,-2,2,-4};
+        Makesquare test = new Makesquare();
+        int[] input_array_1D = {1,1,2,2,2};
         int[][] input_array_2D = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
         char[][] char_array_2D = new char[][]{
                 {'#','.','.','#','.','#'},
@@ -19,7 +19,7 @@ public class Main {
         list_array_2D.add(Arrays.asList(8, 3, 2));
         list_array_2D.add(Arrays.asList(0, 0, 4));
         list_array_2D.add(Arrays.asList(7, 6, 5));
-        System.out.println(test.validIPAddress(string));
+        System.out.println(test.makesquare(input_array_1D));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
