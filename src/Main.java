@@ -3,9 +3,18 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+    static TreeNode buildTree() {
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(3);
+        root.right = new TreeNode(6);
+        root.left.left = new TreeNode(2);
+        root.left.right = new TreeNode(4);
+        root.right.right = new TreeNode(7);
+        return root;
+    }
 
     public static void main(String[] args) {
-        Makesquare test = new Makesquare();
+        DeleteNode test = new DeleteNode();
         int[] input_array_1D = {1,1,2,2,2};
         int[][] input_array_2D = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
         char[][] char_array_2D = new char[][]{
@@ -19,7 +28,7 @@ public class Main {
         list_array_2D.add(Arrays.asList(8, 3, 2));
         list_array_2D.add(Arrays.asList(0, 0, 4));
         list_array_2D.add(Arrays.asList(7, 6, 5));
-        System.out.println(test.makesquare(input_array_1D));
+        System.out.println(test.deleteNode(buildTree(), 3));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
