@@ -4,6 +4,22 @@
 
 <br>
 
+### 06-03】[829. 连续整数求和](https://leetcode.cn/problems/consecutive-numbers-sum/)
+
+**难度**：困难
+
+**标签**：数学，枚举
+
+**代码**：[ConsecutiveNumbersSum.java](src/ConsecutiveNumbersSum.java)
+
+**笔记**：
+
+- 自己的做法：找规律，枚举
+- 题解：当 k 是偶数时，「正整数 n 可以表示成 k 个连续正整数之和」等价于「正整数 n 不可以被 k 整除且正整数 2n 可以被 k 整除」
+- 时间复杂度相同
+
+<br>
+
 ### 06-02】[450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/)
 
 **难度**：中等
@@ -18,7 +34,7 @@
 - 应该利用递归性质，而遍历树找到目标点再针对操作是比较低效的
   - 递归调用函数对子树做删除
   - 递归调用函数把用来顶替当前位置的节点删除
-
+- 将递归改写成迭代，还可以节约较多空间
 
 <br>
 
