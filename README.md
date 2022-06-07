@@ -4,6 +4,41 @@
 
 <br>
 
+### 06-07】[875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
+
+**难度**：中等
+
+**标签**：数组，二分查找
+
+**代码**：[MinEatingSpeed.java](src/MinEatingSpeed.java)
+
+**笔记**：
+
+- 二分答案并检验
+- 根据可能的h的最大最小值就可以推出二分答案的初始边界
+
+<br>
+
+### 06-05】[478. 在圆内随机生成点](https://leetcode.cn/problems/generate-random-point-in-a-circle/)
+
+**难度**：中等
+
+**标签**：拒绝采样，数学，几何，随机化
+
+**代码**：[RandPoint.java](src/RandPoint.java)
+
+**笔记**：
+
+- 一个方法是拒绝采样
+- 另一个方法是根据概率分布确定点离圆心的距离和连线的夹角
+  - 但是要**注意**概率，离圆心的距离并不是均匀分布的，而是概率与距离的开平方成正比
+  - 计算sin和cos时用的是弧度
+    - 与半径等长的弧对应的弧度是1 
+    - 一周的范围是：2 * Math.PI
+
+
+<br>
+
 ### 06-03】[829. 连续整数求和](https://leetcode.cn/problems/consecutive-numbers-sum/)
 
 **难度**：困难
