@@ -4,6 +4,53 @@
 
 <br>
 
+### 06-11】[926. 将字符串翻转到单调递增](https://leetcode.cn/problems/flip-string-to-monotone-increasing/)
+
+**难度**：中等
+
+**标签**：前缀和，动态规划，字符串
+
+**代码**：[MinFlipsMonoIncr.java](src/MinFlipsMonoIncr.java)
+
+**笔记**：
+
+- 对于单调递增的字符串来说：
+  - 0 的前面一定是 0
+  - 1 的前面可以是 1 可以是 0
+- 所以可以分析出使用**动态规划**的方法来求解
+  - dp[i][x] 的含义是让在i处的字符是 x，使得前 i 个字符单调递增所需要的最小调换数
+  - dp[i][0] = dp[i - 1][0] + (int)(s[i]!=0)
+  - dp[i][1] = min(dp[i - 1][0], dp[i - 1][1]) + (int)(s[i]!=1)
+
+<br>
+
+### 06-10】[730. 统计不同回文子序列](https://leetcode.cn/problems/count-different-palindromic-subsequences/)
+
+**难度**：困难
+
+**标签**：字符串，动态规划
+
+**代码**：[CountPalindromicSubsequences.java](src/CountPalindromicSubsequences.java)
+
+**笔记**：
+
+
+<br>
+
+### 06-09】[497. 非重叠矩形中的随机点](https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/)
+
+**难度**：中等
+
+**标签**：前缀和，二分查找
+
+**代码**：[Pick.java](src/Pick.java)
+
+**笔记**：
+
+- 经典的二分查找问题
+
+<br>
+
 ### 06-07】[875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
 
 **难度**：中等
