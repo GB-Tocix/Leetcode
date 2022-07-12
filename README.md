@@ -4,6 +4,54 @@
 
 <br>
 
+### 07-12】[1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)
+
+**难度**：简单
+
+**标签**：模拟，数组，数学
+
+**代码**：[OddCells.java](src/OddCells.java)
+
+**笔记**：
+
+- 最简单的模拟是可以的
+- 但更高效的方法是：
+  - col_changed
+  - row_changed
+  - 然后统计，时间复杂度 O(n+m+indices.length)，空间复杂度 O(n+m)
+
+<br>
+
+### 07-11】[676. 实现一个魔法字典](https://leetcode.cn/problems/implement-magic-dictionary/submissions/)
+
+**难度**：中等
+
+**标签**：树，哈希表，字典树
+
+**代码**：[MagicDictionary.java](src/MagicDictionary.java)
+
+**笔记**：
+
+- 简单暴力也足够高效
+- 使用字典树 + 递归（dfs）可以进一步优化
+
+<br>
+
+### 06-18】[剑指 Offer II 029. 排序的循环链表](https://leetcode.cn/problems/4ueAj6/)
+
+**难度**：中等
+
+**标签**：链表
+
+**代码**：[Insert.java](src/Insert.java)
+
+**笔记**：
+
+- 找到能被“夹住”的位置
+- 不然，就在巡游一圈后，在最大最后的点的下一个位置插入
+
+<br>
+
 ### 06-11】[926. 将字符串翻转到单调递增](https://leetcode.cn/problems/flip-string-to-monotone-increasing/)
 
 **难度**：中等
@@ -33,7 +81,7 @@
 **代码**：[CountPalindromicSubsequences.java](src/CountPalindromicSubsequences.java)
 
 **笔记**：
-
+  
 
 <br>
 
