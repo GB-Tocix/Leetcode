@@ -4,6 +4,20 @@
 
 <br>
 
+### 07-20】[735. 行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
+
+**难度**：中等
+
+**标签**：栈，数组
+
+**代码**：[AsteroidCollision.java](src/AsteroidCollision.java)
+
+**笔记**：
+
+- 使用栈来模拟
+
+<br>
+
 ### 07-12】[1252. 奇数值单元格的数目](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix/)
 
 **难度**：简单
