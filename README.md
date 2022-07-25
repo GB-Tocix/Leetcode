@@ -718,6 +718,13 @@
 
 **代码**：[CBTInserter.java](src/CBTInserter.java)
 
+**笔记**：
+- 在根结点编号为1的前提下
+- 可以看出，对于将插入的整棵树的第x个节点，观察x的二进制表示
+  - 从高位往低位遍历，忽略最高位的1
+  - 从根节点出发，遇到0往左走，遇到1往右走
+  - 这样下去就可以到达要被插入的位置
+
 <br>
 
 ### 03-08】[2055. 蜡烛之间的盘子](https://leetcode-cn.com/problems/plates-between-candles/)
