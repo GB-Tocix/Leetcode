@@ -4,6 +4,21 @@
 
 <br>
 
+### 09-03】[646. 最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/)
+
+**难度**：中等
+
+**标签**：贪心，动态规划，排序
+
+**代码**：[FindLongestChain.java](src/FindLongestChain.java)
+
+**笔记**：
+
+- 与问题【无重叠区间】方法一致
+- 使用排序 + 贪心算法
+
+<br>
+
 ### 07-20】[735. 行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
 
 **难度**：中等
