@@ -4,6 +4,45 @@
 
 <br>
 
+### 09-06】[828. 统计子串中的唯一字符](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
+
+**难度**：困难
+
+**标签**：动态规划，字符串，哈希表
+
+**代码**：[UniqueLetterString.java](src/UniqueLetterString.java)
+
+**笔记**：
+
+- 前后缀记录 + 一次统计
+
+<br>
+
+### 09-05】[652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/)
+
+**难度**：中等
+
+**标签**：树，哈希表，深度优先搜索
+
+**代码**：[FindDuplicateSubtrees.java](src/FindDuplicateSubtrees.java)
+
+**笔记**：
+
+- 我的做法：使用哈希表对不同类型的子树进行标号
+- 题解做法一：
+  - 使用序列化将每一个子树都【序列化】成一个字符串
+  - 并且要能保证：
+    - 相同的子树会被序列化成相同的子串；
+    - 不同的子树会被序列化成不同的子串；
+  - 常见的两种【序列化】方法：
+    - 层序遍历
+    - 递归+括号表示，如：x(左子树序列化结果)(右子树序列化结果)
+- 题解做法二：
+  - 与“我的方法”相似
+  - 不过在此基础上更高强度地使用哈希表，能够更加高效的判断每种子树是否出现过
+
+<br>
+
 ### 09-03】[646. 最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/)
 
 **难度**：中等
