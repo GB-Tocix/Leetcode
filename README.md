@@ -4,6 +4,21 @@
 
 <br>
 
+### 09-08】[667. 优美的排列 II](https://leetcode.cn/problems/beautiful-arrangement-ii/)
+
+**难度**：中等
+
+**标签**：数学，数组
+
+**代码**：[constructArray.java](src/constructArray.java)
+
+**笔记**：
+
+- 之字形走位
+- 后续衔接差为一的数对
+
+<br>
+
 ### 09-06】[828. 统计子串中的唯一字符](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 
 **难度**：困难
