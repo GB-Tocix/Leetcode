@@ -28,13 +28,28 @@
 
 <br>
 
+### 09-10】[669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/)
+
+**难度**：中等
+
+**标签**：递归，树
+
+**代码**：[TrimBST.java](src/TrimBST.java)
+
+**笔记**：
+
+- 递归求解
+- 利用二叉搜索树的性质
+
+<br>
+
 ### 09-08】[667. 优美的排列 II](https://leetcode.cn/problems/beautiful-arrangement-ii/)
 
 **难度**：中等
 
 **标签**：数学，数组
 
-**代码**：[constructArray.java](src/constructArray.java)
+**代码**：[ConstructArray.java](src/ConstructArray.java)
 
 **笔记**：
 
