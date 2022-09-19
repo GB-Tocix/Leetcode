@@ -4,6 +4,55 @@
 
 <br>
 
+### 09-18】[827. 最大人工岛](https://leetcode.cn/problems/making-a-large-island/)
+
+**难度**：困难
+
+**标签**：深度优先搜索，哈希
+
+**代码**：[LargestIsland.java](src/LargestIsland.java)
+
+**笔记**：
+
+- 为不同岛标上标号
+- 枚举每个可以从 0 变成 1 的地方
+- 记录最大的连接面积
+
+<br>
+
+### 09-16】[850. 矩形面积 II](https://leetcode.cn/problems/rectangle-area-ii/)
+
+**难度**：困难
+
+**标签**：哈希，枚举
+
+**代码**：[Rectangles.java](src/Rectangles.java)
+
+**笔记**：
+
+- 哈希构建双向映射
+- 然后使用基础方法求解
+
+<br>
+
+### 09-15】[672. 灯泡开关 Ⅱ](https://leetcode.cn/problems/bulb-switcher-ii/)
+
+**难度**：中等
+
+**标签**：数学
+
+**代码**：[FlipLights.java](src/FlipLights.java)
+
+**笔记**：
+
+- 分析性质：
+  - 在操作了 n 次开关之后，假设完整的操作过程是：P1,P2,……,Pn
+  - 如果这些操作当中两次是对同一个开关进行按压，那么直接从操作序列中去掉这两次操作，最终得到的状态是相同的
+  - 所以可见最终的状态数 小于等于 长度为 n 的操作序列中对不同开关进行按压的次数奇偶情况排列的数量
+  - 最后经过分析，由于开关数较少且简单，所以可以简单解决
+
+<br>
+
 ### 09-11】[857. 雇佣 K 名工人的最低成本](https://leetcode.cn/problems/minimum-cost-to-hire-k-workers/)
 
 **难度**：困难
