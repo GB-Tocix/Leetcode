@@ -4,6 +4,34 @@
 
 <br>
 
+### 10-18】[902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)
+
+**难度**：困难
+
+**标签**：动态规划，数学
+
+**代码**：[AtMostNGivenDigitSet.java](src/AtMostNGivenDigitSet.java)
+
+**笔记**：
+
+- 注意分类的完备，不要复杂化
+
+<br>
+
+### 09-21】[854. 相似度为 K 的字符串](https://leetcode.cn/problems/k-similar-strings/)
+
+**难度**：困难
+
+**标签**：深度优先搜索，字符串
+
+**代码**：[KSimilarity.java](src/KSimilarity.java)
+
+**笔记**：
+
+- 还有动态规划解法
+
+<br>
+
 ### 09-18】[827. 最大人工岛](https://leetcode.cn/problems/making-a-large-island/)
 
 **难度**：困难

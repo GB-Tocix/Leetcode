@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        MincostToHireWorkers test = new MincostToHireWorkers();
+        AtMostNGivenDigitSet test = new AtMostNGivenDigitSet();
         int[] input_array_1D = {5,-10,-5};
         int[][] input_array_2D = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
         char[][] char_array_2D = new char[][]{
@@ -23,12 +23,12 @@ public class Main {
                 {'#','.','.','#','.','#'}
         };
         String string = "00.0.0.0";
-        String[] string_array_1D = new String[]{"yo","ew","fc","zrc","yodn","fcm","qm","qmo","fcmz","z","ewq","yod","ewqz","y"};
+        String[] string_array_1D = new String[]{"1","7"};
         List<List<Integer>> list_array_2D = new ArrayList<>();
         list_array_2D.add(Arrays.asList(8, 3, 2));
         list_array_2D.add(Arrays.asList(0, 0, 4));
         list_array_2D.add(Arrays.asList(7, 6, 5));
-        System.out.println(test.mincostToHireWorkers(new int[]{4, 4, 4, 5}, new int[]{13, 12, 13, 12}, 2));
+        System.out.println(test.atMostNGivenDigitSet(string_array_1D, 231));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
