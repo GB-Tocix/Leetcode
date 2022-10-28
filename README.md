@@ -4,6 +4,20 @@
 
 <br>
 
+### 10-28】[907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/)
+
+**难度**：中等
+
+**标签**：栈，数组，动态规划，单调栈
+
+**代码**：[SumSubarrayMins.java](src/SumSubarrayMins.java)
+
+**笔记**：
+
+- 注意两次过栈：一次要取严格不等式、一次不取——才能保证不重复
+
+<br>
+
 ### 10-18】[902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)
 
 **难度**：困难
