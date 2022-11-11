@@ -4,6 +4,20 @@
 
 <br>
 
+### 11-10】[864. 获取所有钥匙的最短路径](https://leetcode.cn/problems/shortest-path-to-get-all-keys/)
+
+**难度**：困难
+
+**标签**：位运算，数组，广度优先搜素
+
+**代码**：[ShortestPathAllKeys.java](src/ShortestPathAllKeys.java)
+
+**笔记**：
+
+- 注意两次过栈：一次要取严格不等式、一次不取——才能保证不重复
+
+<br>
+
 ### 10-28】[907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums/)
 
 **难度**：中等

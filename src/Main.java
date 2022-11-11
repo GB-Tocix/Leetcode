@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        MagicalString test = new MagicalString();
+        ShortestPathAllKeys test = new ShortestPathAllKeys();
         int[] input_array_1D = {1,2,3,3};
         int[] input_array_1D_2 = {3,4,5,6};
         int[] input_array_1D_3 = {50,10,40,70};
@@ -25,12 +25,13 @@ public class Main {
                 {'#','.','.','#','.','#'}
         };
         String string = "00.0.0.0";
-        String[] string_array_1D = new String[]{"1","7"};
+        String[] string_array_1D = new String[]{
+                "@...a",".###A","b.BCc"};
         List<List<Integer>> list_array_2D = new ArrayList<>();
         list_array_2D.add(Arrays.asList(8, 3, 2));
         list_array_2D.add(Arrays.asList(0, 0, 4));
         list_array_2D.add(Arrays.asList(7, 6, 5));
-        System.out.println(test.magicalString(7));
+        System.out.println(test.shortestPathAllKeys(string_array_1D));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
