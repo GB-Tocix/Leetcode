@@ -4,6 +4,16 @@
 
 <br>
 
+### 11-12】[790. 多米诺和托米诺平铺](https://leetcode.cn/problems/domino-and-tromino-tiling/)
+
+**难度**：中等
+
+**标签**：动态规划
+
+**代码**：[NumTilings.java](src/NumTilings.java)
+
+<br>
+
 ### 11-10】[864. 获取所有钥匙的最短路径](https://leetcode.cn/problems/shortest-path-to-get-all-keys/)
 
 **难度**：困难

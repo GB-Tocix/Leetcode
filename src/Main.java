@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        ShortestPathAllKeys test = new ShortestPathAllKeys();
+        NumTilings test = new NumTilings();
         int[] input_array_1D = {1,2,3,3};
         int[] input_array_1D_2 = {3,4,5,6};
         int[] input_array_1D_3 = {50,10,40,70};
@@ -31,7 +31,7 @@ public class Main {
         list_array_2D.add(Arrays.asList(8, 3, 2));
         list_array_2D.add(Arrays.asList(0, 0, 4));
         list_array_2D.add(Arrays.asList(7, 6, 5));
-        System.out.println(test.shortestPathAllKeys(string_array_1D));
+        System.out.println(test.numTilings(4));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
