@@ -4,6 +4,33 @@
 
 <br>
 
+### 11-14】[805. 数组的均值分割](https://leetcode.cn/problems/split-array-with-same-average/)
+
+**难度**：困难
+
+**标签**：滑动窗口，数学，排序
+
+**代码**：[SplitArraySameAverage.java](src/SplitArraySameAverage.java)
+
+**笔记**
+- 一开始觉得是滑动窗口，但是所取数字并不一定在大小排序顺序上连续；
+- 所以子问题实际上应该是背包问题：
+  - 容量为 i
+  - 目标价值（也是容量，另一个维度）为 i * sum / n
+- 判断除法结果是否为整数，可以先用取余来判断
+
+<br>
+
+### 11-13】[791. 自定义字符串排序](https://leetcode.cn/problems/custom-sort-string/)
+
+**难度**：中等
+
+**标签**：字符串，计数，排序
+
+**代码**：[CustomSortString.java](src/CustomSortString.java)
+
+<br>
+
 ### 11-12】[790. 多米诺和托米诺平铺](https://leetcode.cn/problems/domino-and-tromino-tiling/)
 
 **难度**：中等

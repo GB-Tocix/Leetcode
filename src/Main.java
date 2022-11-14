@@ -14,8 +14,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        NumTilings test = new NumTilings();
-        int[] input_array_1D = {1,2,3,3};
+        SplitArraySameAverage test = new SplitArraySameAverage();
+        int[] input_array_1D = {5,3,11,19,2};
         int[] input_array_1D_2 = {3,4,5,6};
         int[] input_array_1D_3 = {50,10,40,70};
         int[][] input_array_2D = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
@@ -31,7 +31,7 @@ public class Main {
         list_array_2D.add(Arrays.asList(8, 3, 2));
         list_array_2D.add(Arrays.asList(0, 0, 4));
         list_array_2D.add(Arrays.asList(7, 6, 5));
-        System.out.println(test.numTilings(4));
+        System.out.println(test.splitArraySameAverage(input_array_1D));
 
 //        AllOne obj = new AllOne();
 //        obj.inc("hello");
