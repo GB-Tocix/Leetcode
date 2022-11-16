@@ -4,6 +4,16 @@
 
 <br>
 
+### 11-16】[775. 全局倒置与局部倒置](https://leetcode.cn/problems/global-and-local-inversions/)
+
+**难度**：中等
+
+**标签**：后缀极值，数组，数学
+
+**代码**：[IsIdealPermutation.java](src/IsIdealPermutation.java)
+
+<br>
+
 ### 11-14】[805. 数组的均值分割](https://leetcode.cn/problems/split-array-with-same-average/)
 
 **难度**：困难
