@@ -4,6 +4,19 @@
 
 <br>
 
+### 11-18】[891. 子序列宽度之和](https://leetcode.cn/problems/sum-of-subsequence-widths/)
+
+**难度**：困难
+
+**标签**：排序，数组，数学
+
+**代码**：[SumSubseqWidths.java](src/SumSubseqWidths.java)
+
+**笔记**：
+- 要注意 long 的范围，只到2^31，大概到 2*10^9
+
+<br>
+
 ### 11-16】[775. 全局倒置与局部倒置](https://leetcode.cn/problems/global-and-local-inversions/)
 
 **难度**：中等
