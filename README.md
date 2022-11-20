@@ -4,6 +4,19 @@
 
 <br>
 
+### 11-20】[799. 香槟塔](https://leetcode.cn/problems/champagne-tower/)
+
+**难度**：中等
+
+**标签**：动态规划
+
+**代码**：[ChampagneTower.java](src/ChampagneTower.java)
+
+**笔记**：
+- 先假设全部倒到了第一杯里，然后再递推
+
+<br>
+
 ### 11-18】[891. 子序列宽度之和](https://leetcode.cn/problems/sum-of-subsequence-widths/)
 
 **难度**：困难
