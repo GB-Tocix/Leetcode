@@ -36,7 +36,7 @@
 **代码**：[SumSubseqWidths.java](src/SumSubseqWidths.java)
 
 **笔记**：
-- 要注意 long 的范围，只到2^31，大概到 2*10^9
+- 要注意 long 的范围，只到2^64，大概到 2*10^19
 
 <br>
 
