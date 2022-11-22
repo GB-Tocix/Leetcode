@@ -4,6 +4,16 @@
 
 <br>
 
+### 11-22】[878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/)
+
+**难度**：困难
+
+**标签**：数学，二分查找，找规律
+
+**代码**：[NthMagicalNumber.java](src/NthMagicalNumber.java)
+
+<br>
+
 ### 11-20】[799. 香槟塔](https://leetcode.cn/problems/champagne-tower/)
 
 **难度**：中等
