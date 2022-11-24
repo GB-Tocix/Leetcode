@@ -4,6 +4,24 @@
 
 <br>
 
+### 11-24】[795. 区间子数组个数](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/)
+
+**难度**：中等
+
+**标签**：数组，双指针，（单调栈）
+
+**代码**：[NumSubarrayBoundedMax.java](src/NumSubarrayBoundedMax.java)
+
+**笔记**：
+- 个人使用了**单调栈**，但时间空间效果一般
+- 官方题解：
+  - 将 nums 中的元素分成 0，1，2 三类
+  - 於是问题变成：如何计算的合法子区间不包含 2 且至少包含一个 1
+  - 于是可以先求出只包含 0 或 1 的子区间数目，再减去只包括 0 的子区间数目
+    - 设count(nums, lower) 是数组 nums 中 所有元素小于等于 lower 的子数组数目， 那么本问题最终答案为 count(nums, right) - count(nums, left)
+
+<br>
+
 ### 11-22】[878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/)
 
 **难度**：困难
