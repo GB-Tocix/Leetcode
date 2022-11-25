@@ -4,6 +4,20 @@
 
 <br>
 
+### 11-25】[809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/)
+
+**难度**：中等
+
+**标签**：数组，字符串，双指针
+
+**代码**：[ExpressiveWords.java](src/ExpressiveWords.java)
+
+**笔记**：
+- 写的有些冗长
+- 应该使用双指针
+
+<br>
+
 ### 11-24】[795. 区间子数组个数](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/)
 
 **难度**：中等
