@@ -4,6 +4,20 @@
 
 <br>
 
+### 11-26】[882. 细分图中的可到达节点](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/)
+
+**难度**：困难
+
+**标签**：图，最短路，堆（优先队列）
+
+**代码**：[ReachableNodes.java](src/ReachableNodes.java)
+
+**笔记**：
+- 模仿 dijkstra 思路
+- 但是要记住该方法应与优先队列配合，贪心想法
+
+<br>
+
 ### 11-25】[809. 情感丰富的文字](https://leetcode.cn/problems/expressive-words/)
 
 **难度**：中等
